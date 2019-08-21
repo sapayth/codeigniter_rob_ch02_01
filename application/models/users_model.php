@@ -9,4 +9,8 @@ class Users_model extends CI_Model {
 	public function get_all_users() {
 		return $this->db->get('users');
 	}
+
+	public function process_create_user($data) {
+		if($this->db->insert('users', d$ata))
+	}
 }
